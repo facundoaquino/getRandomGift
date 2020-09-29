@@ -1,0 +1,30 @@
+@media screen and (max-width: 1000px) {
+	.giftContainer {
+		width: 500px;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+    }
+    .btnMain {
+        width: 90%;
+        margin: 1 rem auto;
+	}
+
+	.img__gift {
+		width: 280px;
+	}
+}
+@media screen and (max-width: 590px) {
+	.giftContainer {
+		justify-items: center;
+		width: 400px;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 1rem;
+	}
+	.btnMain {
+        width: 90%;
+        margin: 1 rem auto;
+	}
+	.img__gift {
+		width: 280px;
+	}
+}
